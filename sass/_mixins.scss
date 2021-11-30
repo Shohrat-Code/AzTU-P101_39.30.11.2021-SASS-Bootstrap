@@ -1,0 +1,15 @@
+@mixin btn($p: 10px 20px, $br:3px, $bg:$second-color, $c:white) {
+    background: $bg;
+    border-radius: $br;
+    padding: $p;
+    color: $c;
+    text-decoration: none;
+}
+
+@mixin test($p: 10px 20px, $br:3px, $bg:$second-color, $c:white) {
+    background: $bg;
+    border-radius: $br;
+    padding: $p;
+    color: $c;
+    text-decoration: none;
+}

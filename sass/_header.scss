@@ -1,0 +1,24 @@
+header {
+    padding: 30px;
+    background-color: $main-color;
+    nav {
+        ul {
+            list-style-type: none;
+            li {
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 20px;
+                    display: inline-block;
+                    background-color: rgb(1, 1, 70);
+                }
+            }
+        }
+        a {
+            @include btn($bg: red, $br: 5px, $c: rgb(168, 168, 168));
+            display: inline-block;
+            margin-top: 20px;
+        }
+    }
+}

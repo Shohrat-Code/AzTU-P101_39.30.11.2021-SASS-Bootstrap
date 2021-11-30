@@ -1,0 +1,16 @@
+main {
+    #banner {
+        padding: 100px 0px;
+        background-color: rosybrown;
+        h1 {
+            @extend %title;
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+        a {
+            @include btn($bg: blue, $br: 2px, $c: rgb(223, 128, 128));
+        }
+    }
+}
